@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #d7bb6a;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+h1, h2 {
+    color: #000000;
+    text-align: center;
+}
+.input-group {
+    margin-bottom: 15px;
+}
+.input-group label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+.input-group input {
+    padding: 8px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.logic1-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #9d7f28;
+    color: #000000;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.logic1-button:hover {
+    background-color: #b9ae2a;
+}
+#resultR, #resultS {
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+    color: #000000;
+}
+
